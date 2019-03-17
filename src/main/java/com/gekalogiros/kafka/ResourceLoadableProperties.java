@@ -17,7 +17,7 @@ class ResourceLoadableProperties extends Properties {
             load(this.getClass().getResourceAsStream(resource));
         }
         catch (IOException e) {
-            throw new RuntimeException(String.format("Failed to load kafka properties %s", resource));
+            throw new RuntimeException(String.format("Failed to load properties %s", resource));
         }
         return this;
     }
