@@ -1,0 +1,1 @@
+{ "namespace": "com.gekalogiros.kafka", "type": "record", "name": "KafkaMessage", "fields": [ {"name": "body", "type": "string"} ] }
