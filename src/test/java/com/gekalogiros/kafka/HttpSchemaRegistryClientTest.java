@@ -62,7 +62,7 @@ class HttpSchemaRegistryClientTest {
         assertEquals(schema, SCHEMA);
     }
 
-    void setupStub() {
+    private void setupStub() {
 
         final ResponseDefinitionBuilder responseDefinitionBuilder = aResponse()
                 .withHeader("Content-Type", "application/json")
